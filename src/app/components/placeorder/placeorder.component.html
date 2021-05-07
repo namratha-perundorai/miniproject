@@ -1,0 +1,60 @@
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="guest-from card">
+            <div class="card-header text-center">
+              <h3 class="text-center">Checking Out Products</h3>
+  
+              <form>
+                <fieldset>
+                  <legend>Address</legend>
+                     <div class="form-group">
+                      <label for="name">Full Name: </label>
+                      <input type="text" id="name" name="name"><br>
+                    </div>
+                    <div class="form-group">
+                      <label for="phone">Mobile no:</label>
+                      <input type="text"><br>
+                    </div>
+                    <div class="form-group">
+                     <label for="pin">Pincode: </label>
+                     <input type="text" ><br>
+                     </div>
+                     <div class="form-group">
+                     <label for="state">State: </label>
+                     <input type="text"> <br> 
+                     </div>
+                     <div class="form-group">
+                     <label for="city">City: </label>
+                     <input type="text"> <br> 
+                     </div>
+                     <div class="form-group">
+                     <label for="hno">H:no,building name </label>
+                    <input type="text"><br>
+                    </div>
+                    <div class="form-group">
+                    <label for="street">street-no,road-no </label>
+                     <input type="text">
+                     </div> 
+                </fieldset>
+                  <h2>select payment option</h2>
+                    <input type="radio" id="cod" name="cod" value="cod">
+                    <label for="male"><b>cash on delivery</b></label><br>
+                    <input type="radio" id="card" name="cod" value="card">
+                    <label for="card"><b>credit/debit/atm card</b></label><br>
+                    <input type="radio" id="upi" name="cod" value="upi">
+                    <label for="upi"><b>UPI</b></label><br>
+                    <input type="radio" id="net" name="cod" value="net">
+                    <label for="net"><b>Net banking</b></label>
+                
+      
+             </form>
+             <div>
+              <a class="btn btn-success" [routerLink]="['/order']">continue</a>
+            </div>
+            </div>
+          
+        </div>
+      
+    </div>
+  </div>
+  
